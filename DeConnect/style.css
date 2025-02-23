@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #0047AB, #0073E6);
+    color: #333;
+    text-align: center;
+    scroll-behavior: smooth;
+}
+
+header {
+    background: rgba(0, 71, 171, 0.9);
+    color: white;
+    padding: 30px 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+header p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #00c2cb; /* Highlighted tagline */
+}
+
+nav {
+    background: rgba(0, 86, 179, 0.9);
+    padding: 15px;
+    position: sticky;
+    top: 80px;
+    z-index: 999;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #00c2cb;
+}
+
+section {
+    padding: 40px;
+    margin: 40px auto;
+    width: 80%;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 6px 25px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+h2 {
+    color: #0047AB;
+    font-size: 28px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #444;
+}
+
+button {
+    background: #00c2cb;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    /* transition: background 0.3s ease, transform 0.2s ease; */
+}
+
+button:hover {
+    background: #0097a7;
+    transform: scale(1.05);
+}
+
+footer {
+    background: rgba(0, 71, 171, 0.9);
+    color: white;
+    padding: 20px;
+    font-size: 16px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    color: #00c2cb; /* Updated to teal */
+}
+
+footer a {
+    color: #00c2cb; /* Updated to teal */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
